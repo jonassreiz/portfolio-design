@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+.circlebig {
+    left: 10%;
+    top: 45px;
+    position: absolute;
+    width: 500px;
+    height: 490px;
+    background-color: rgba(177, 10, 10, 0.603);
+    border-radius: 50%;
+    z-index: -1;
+}
+.container {
+    background-color: transparent;
+    backdrop-filter: blur(17px);
+    z-index: 1;
+    border-radius: 1%;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+.img1 img{
+    width: 35px;
+    height: 25px;
+}
+.img2 img{
+    align-items: center;
+    width: 28px;
+    height: auto;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-right: 350px;
+}
+.titulo h1{
+  font-family: "Playfair Display", serif;
+  font-size: 140px;
+  font-style: normal;
+  color: wheat;
+}
+.paragrafo p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    width: 400px;
+    height: 150px;
+    margin-left: 200px;
+    padding-top: 50px;
+
+}
+.paragrafo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.services{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 500px;
+    padding-top: 200px;
+}
+.tituloservices h1{
+    font-family: "Playfair Display", serif;
+    font-size: 45px;
+    font-style: normal;
+    color: wheat;
+    text-align: left;
+    width: 300px;
+}
+.development{
+    flex-direction: column;
+}
+.development h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: wheat;
+    font-size: 30px;
+    width: 400px;
+}
+.development p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.design {
+    flex-direction: column;
+}
+.design h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: wheat;
+    font-size: 30px;
+}
+.design p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.frasefinal{
+    display: flex;
+    justify-content: center;
+}
+.frasefinal h1{
+    color: wheat;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 350px;
+    height: 400px;
+}
+
+.circletext p{
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+}
+.circletext{
+    display: flex;
+    align-items: center;
+}
+.circletransparent {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    background-color: rgba(184, 22, 22, 0.192);
+    border-radius: 50%;
+}
+.circlesmall{
+    right: 200px;
+    top: 1185px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(177, 10, 10, 0.603);
+    border-radius: 50%;
+    z-index: -1;
+}
+.footer{
+    width: 100%; 
+
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4rem 15rem;
+    text-align: left;
+    align-items: center;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    color: wheat;
+}
+.footer-list a{
+    text-decoration: none;
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+}
+.footer-contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: right;
+}
+.footer-contacts p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    align-items: center;
+}
+.social-media{
+    display: flex;
+}
+.social-media a{
+    margin-top: 5px;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px
+}
